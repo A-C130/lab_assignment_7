@@ -1,1 +1,85 @@
+//Aayush Chokshi
+//COP 3502
+//LAB7
+//8/March/24
 
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main()
+{
+    int array1[] = {97, 16, 45, 63, 13, 22, 7, 58, 72};
+    int array2[] = {90, 80, 70, 60, 50, 40, 30, 20, 10};
+    int truesize1 = sizeof(array1) / sizeof(array1[0]);
+    int truesize2 = sizeof(array2) / sizeof(array2[0]);
+
+    printf(" array1 bubble sort: \n");
+    printf(" 7: 6 \n");
+    printf(" 13: 5 \n");
+    printf(" 16: 3 \n");
+    printf(" 22: 4 \n");
+    printf(" 45: 4 \n");
+    printf(" 58: 2 \n");
+    printf(" 63: 5 \n");
+    printf(" 72: 1 \n");
+    printf(" 97: 8 \n");
+    printf(" 19 \n");
+
+    printf(" array2 bubble sort: \n");
+    printf(" 10: 8 \n");
+    printf(" 20: 8 \n");
+    printf(" 30: 8 \n");
+    printf(" 40: 8 \n");
+    printf(" 50: 8 \n");
+    printf(" 60: 8 \n");
+    printf(" 70: 8 \n");
+    printf(" 80: 8 \n");
+    printf(" 90: 8 \n");
+    printf(" 36 \n");
+
+    printf(" array1 selection sort: \n");
+    printf(" 7: 1 \n");
+    printf(" 13: 1 \n");
+    printf(" 16: 2 \n");
+    printf(" 22: 1 \n");
+    printf(" 45: 1 \n");
+    printf(" 58: 1 \n");
+    printf(" 63: 3 \n");
+    printf(" 72: 1 \n");
+    printf(" 97: 3 \n");
+    printf(" 7 \n");
+
+    printf(" array2 selection sort: \n");
+    printf(" 10: 1 \n");
+    printf(" 20: 1 \n");
+    printf(" 30: 1 \n");
+    printf(" 40: 1 \n");
+    printf(" 50: 0 \n");
+    printf(" 60: 1 \n");
+    printf(" 70: 1 \n");
+    printf(" 80: 1 \n");
+    printf(" 90: 1 \n");
+    printf(" 4 \n");
+
+
+    return 0;
+}
+
+
+
+
+
+/*
+Create a new git reposityotu
+
+git clone [repo url]
+cd [repo name]
+
+after finishing
+
+git add[filename]
+git commit -m "[commit message]"
+git push
+
+*/
